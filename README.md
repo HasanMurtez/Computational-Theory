@@ -1,5 +1,9 @@
 # Computational-Theory
 
+## Hasan Murtaza
+
+**Student ID:** G00419888  
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -63,3 +67,14 @@ If Jupyter wont start:
 ```bash
 pip install --upgrade jupyter-core jupyter-client
 ```
+
+## Implementation Details
+
+The notebook solves four interconnected problems:
+
+1. **Problem 1:** Implements SHA-256 bitwise operations
+2. **Problem 2:** Calculates cryptographic constants
+3. **Problem 3:** Implements message padding and parsing
+4. **Problem 4:** Integrates all components into complete hash function
+
+All implementations are verified against Python's standard `hashlib` library.
